@@ -8,9 +8,9 @@
 
 ======== Testing Client =======
 
-I intalled tftp client on ubuntu 14.10 and tested using it."http://manpages.ubuntu.com/manpages/hardy/man1/tftp.1.html"
+Tested using tftp client on ubuntu 14.10."http://manpages.ubuntu.com/manpages/hardy/man1/tftp.1.html"
 
-Command for that
+Command:-
 
 1) type tftp. it will go into command editor for tftp
 2) set mode to octet by typing "binary"
