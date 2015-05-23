@@ -1,0 +1,22 @@
+==== Build & Run ======
+
+1) Source code is go_tftp_server.go. Copy in folder (ex. go_tftp_server) and run "go build"
+   it will generate "go_tftp_server" executable.
+
+2) Run using that executable.
+   ex.    ./go_tftp_server 127.0.0.1:9999
+
+======== Testing Client =======
+
+I intalled tftp client on ubuntu 14.10 and tested using it."http://manpages.ubuntu.com/manpages/hardy/man1/tftp.1.html"
+
+Command for that
+
+1) type tftp. it will go into command editor for tftp
+2) set mode to octet by typing "binary"
+3) connect to server by connect "connect 127.0.0.1:9999"
+4) Get/Put file using "get filename" and "put filename"
+
+All testcases are in Test_cases.docx file with screen shot
+
+
